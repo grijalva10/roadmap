@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include roadmap *.css
+recursive-include roadmap *.csv
+recursive-include roadmap *.html
+recursive-include roadmap *.ico
+recursive-include roadmap *.js
+recursive-include roadmap *.json
+recursive-include roadmap *.md
+recursive-include roadmap *.png
+recursive-include roadmap *.py
+recursive-include roadmap *.svg
+recursive-include roadmap *.txt
+recursive-exclude roadmap *.pyc
